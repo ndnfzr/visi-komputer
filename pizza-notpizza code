@@ -21,7 +21,7 @@ import tensorflow_hub as hub
 
 # Getting names of the classes we have
 data_directory = pathlib.Path('D:\VISI KOMPUTER\pizza_not_pizza')
-class_names = [item.name for item in data_directory.glob('*')][:2]
+class_names = [item.name for item in data_directory.glob('*')][:3]
 print(class_names)
 
 pizza_dir = 'D:\VISI KOMPUTER\pizza_not_pizza\pizza' 
